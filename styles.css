@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fff;
+}
+
+body {
+    background: url(assets/background-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+#container {
+    height: 250px;
+    width: 465px;
+    margin: auto;
+    margin-top: 15rem;
+    /* border: 2px solid red; */
+}
+
+ #container1 {
+   margin: 1px
+}
+
+#container2 p {
+    display: inline;
+}
+
+#container4 {
+    text-align: right;
+    display: inline;
+    width: 200px;
+    /* border: 2px solid red; */
+    margin: 0 0 0 298px;
+}
+
+img {
+    width: 50px;
+}
+
+.lowercase {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--white);
+    /* border: 2px solid red; */
+    line-height: 1rem;
+}
+
+.uppercase1 {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: var(--white);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* border: 2px solid red; */
+}
+
+.uppercase2 {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 4rem;
+    color: var(--white);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* border: 2px solid red; */
+
+}
