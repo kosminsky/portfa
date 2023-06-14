@@ -15,7 +15,7 @@ body {
     background-size: cover;
 }
 
-#container {
+#containerAll {
     height: 250px;
     width: 465px;
     margin: auto;
@@ -23,15 +23,15 @@ body {
     /* border: 2px solid red; */
 }
 
- #container1 {
+ #containerApresentation {
    margin: 1px
 }
 
-#container2 p {
+#containerPlataforms p {
     display: inline;
 }
 
-#container4 {
+#containerDescription {
     text-align: right;
     display: inline;
     width: 200px;
