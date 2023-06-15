@@ -16,6 +16,8 @@ body {
 }
 
 #containerAll {
+    display: flex;
+    flex-direction: column;
     height: 250px;
     width: 465px;
     margin: auto;
