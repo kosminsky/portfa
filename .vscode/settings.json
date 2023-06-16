@@ -1,5 +1,6 @@
 {
   // editor
+  "json.schemaDownload.enable": true,
   "editor.wordWrap": "on",
   "editor.fontSize": 18,
   "editor.lineHeight": 30,
@@ -33,5 +34,8 @@
       "source": "Git Bash"
     }
   },
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }

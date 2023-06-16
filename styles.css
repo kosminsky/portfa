@@ -15,18 +15,26 @@ body {
     background-size: cover;
 }
 
+ul {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    gap: 0;
+    line-height: 50px;
+}
+
 #containerAll {
-    display: flex;
-    flex-direction: column;
-    height: 250px;
-    width: 465px;
-    margin: auto;
-    margin-top: 15rem;
+    width: 100%;
+    max-width: 460px;
+    margin: 13rem auto;
     /* border: 2px solid red; */
 }
 
  #containerApresentation {
-   margin: 1px
+   margin: 2px
 }
 
 #containerPlataforms p {
@@ -34,31 +42,28 @@ body {
 }
 
 #containerDescription {
-    text-align: right;
-    display: inline;
-    width: 200px;
+    text-align: end;
     /* border: 2px solid red; */
-    margin: 0 0 0 298px;
 }
 
 img {
-    width: 50px;
+    width: max(3rem, 3vw);
 }
 
 .lowercase {
     font-family: 'Poppins';
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1rem,;
     color: var(--white);
-    /* border: 2px solid red; */
     line-height: 1rem;
+    /* border: 2px solid red; */
 }
 
 .uppercase1 {
     font-family: 'Poppins';
     font-weight: 900;
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: min(4rem, 14vw);
+    /* line-height: 4rem; */
     color: var(--white);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     /* border: 2px solid red; */
@@ -67,10 +72,16 @@ img {
 .uppercase2 {
     font-family: 'Poppins';
     font-weight: 900;
-    font-size: 5rem;
-    line-height: 4rem;
+    font-size: min(4rem, 14vw);
+    /* line-height: 4rem; */
     color: var(--white);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     /* border: 2px solid red; */
 
+}
+
+@media (min-width: 700px) {
+    body {
+        background: url(assets/background-desk.jpg);
+    }
 }
